@@ -7,7 +7,7 @@
 //
 
 #import "BMViewController.h"
-
+#import <BMM/HttpHandler.h>
 @interface BMViewController ()
 
 @end
@@ -17,6 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [HttpHandler httpRequestWithAPI:@"http://zack2311.club.com" method:@"GET" parameter:nil topic:@"http 接口测试" jsonData:YES shouldAlertResult:NO shouldShowPrecess:NO isUrlEncode:YES result:^(BOOL, NSData * _Nonnull) {
+            
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

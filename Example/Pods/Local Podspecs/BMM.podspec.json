@@ -1,0 +1,22 @@
+{
+  "name": "BMM",
+  "version": "0.1.0",
+  "summary": "A short description of BMM.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/“Zack”/BMM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "“Zack”": "363494242@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/“Zack”/BMM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BMM/Classes/**/*"
+}

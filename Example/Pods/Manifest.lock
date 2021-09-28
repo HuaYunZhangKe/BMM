@@ -1,0 +1,27 @@
+PODS:
+  - BMM (0.1.0)
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - BMM (from `../`)
+  - Expecta
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  BMM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BMM: 6c606a73698cdd2daada90a4f78403cd6b268470
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 34922e346339d7887cdfe7b35363888045445738
+
+COCOAPODS: 1.11.2
